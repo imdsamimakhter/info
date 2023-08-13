@@ -1104,3 +1104,15 @@ section {
     padding-right: 20px 15px;
   }
 }
+.logo-heading {
+  display: inline-flex;
+  align-items: center; /* Vertically align the image and heading */
+  gap: 10px; /* Space between image and heading */
+}
+
+.logo {
+  max-width: 40px;
+  height: 40px; /* Ensure a consistent size for circular logos */
+  border-radius: 50%; /* Make the logo circular */
+  object-fit: cover; /* Maintain aspect ratio and cover entire circle */
+}
